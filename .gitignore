@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# VSCode
+.vscode/
+
+# Project
+TODO.md
