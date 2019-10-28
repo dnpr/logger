@@ -1,6 +1,6 @@
 {
-  "name": "logger",
-  "version": "0.1.0",
+  "name": "@dnpr/logger",
+  "version": "0.2.0",
   "description": "A console.log() wrapper that logs more information.",
   "main": "lib/index.js",
   "directories": {
@@ -9,7 +9,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "INDENT=true node test/index.js"
+    "test": "INDENT=true node test/index.js",
+    "release": "npm publish --access public"
   },
   "author": "dragonman225",
   "license": "MIT",
