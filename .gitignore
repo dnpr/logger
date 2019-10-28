@@ -1,5 +1,12 @@
 # Node.js
 node_modules/
+package-lock.json
+
+# pnpm lockfile
+pnpm-lock.yaml
+
+# Logs
+*.log
 
 # macOS
 .DS_Store
@@ -13,7 +20,11 @@ node_modules/
 *.scss.map
 
 # VSCode
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # Project
 TODO.md
