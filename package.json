@@ -4,6 +4,7 @@
   "description": "An advanced console logger.",
   "main": "lib/index.js",
   "directories": {
+    "example": "examples",
     "lib": "lib",
     "test": "test"
   },

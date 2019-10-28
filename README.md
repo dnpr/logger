@@ -1,4 +1,4 @@
-# `> logger`
+# `logger`
 
 > A more informative `console.log()`.
 
