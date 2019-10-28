@@ -1,7 +1,7 @@
 {
   "name": "logger",
   "version": "0.1.0",
-  "description": "An advanced console logger.",
+  "description": "A console.log() wrapper that logs more information.",
   "main": "lib/index.js",
   "directories": {
     "example": "examples",
@@ -9,8 +9,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/logger.js"
+    "test": "INDENT=true node test/index.js"
   },
   "author": "dragonman225",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "zora": "^3.1.3"
+  }
 }
