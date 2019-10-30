@@ -45,6 +45,8 @@ Result :
 
 * Customize log header format with a format string.
 
+* Automatically get namespace like [this](https://github.com/rodrigogs/debuggler).
+
 ## Fun Facts
 
 * I make it look like [Android Logcat](https://developer.android.com/studio/command-line/logcat).
